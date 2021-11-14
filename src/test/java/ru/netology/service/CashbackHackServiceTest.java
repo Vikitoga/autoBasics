@@ -17,7 +17,7 @@ public class CashbackHackServiceTest extends TestCase {
     @Test
     public void testRemainLimit() {
         int actual = cashback.remain(1000);
-        int expected = 1000;
+        int expected = 0;
         assertEquals(expected, actual);
     }
 
