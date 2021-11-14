@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldTestLimit() {
         int actual = сashback.remain(1000);
-        int expected = 1000;
+        int expected = 0;
         assertEquals(actual, expected);
     }
 
